@@ -1,0 +1,66 @@
+.container{
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.breed{  
+    display: flex;
+    width: 27%;
+    height: 43px;
+    background-color: #ffbe5c;
+    padding: 1% 1% 1% 1%;
+    font-size: 22px;
+    margin: 1% 40% 1% 37%;
+    justify-content: center;
+    align-items: center;
+}
+
+.svinka1{
+    text-align: center;
+    display: grid;
+    grid-template-rows: 1fr 1fr; 
+    margin: 1% 5% 1% 4%;
+    border: 2px solid #500068;
+    padding: 5%;
+}
+.gallery_1___img{    
+    padding: 1% 1% 8% 1%;
+    grid-row: 1 / 1;
+    width: 99%;
+}
+
+.svinka2{      
+    text-align: center;
+    display: grid;
+    grid-template-rows: 1fr 1fr; 
+    margin: 1% 5% 1% 4%;
+    border: 2px solid #500068;
+    padding: 5%;}
+
+    .gallery_2___img{  
+        padding: 1% 1% 8% 1%;
+        grid-row: 1 / 1;
+        width: 99%;}
+
+
+.svinka3{ 
+    grid-column: 3 / 3;
+    grid-row : 1 / 1; 
+    text-align: center;
+    display: grid;
+    grid-template-rows: 1fr 1fr; 
+    margin: 1% 5% 1% 4%;
+    border: 2px solid #500068;
+    padding: 5%;}
+
+    .gallery_3___img{  
+        padding: 1% 1% 8% 1%;
+        grid-row: 1 / 1;
+        width: 99%;
+    height: auto;}
+
+    .selected{
+        background-color: #81d154;
+        border:  1px #f3e142;
+    }

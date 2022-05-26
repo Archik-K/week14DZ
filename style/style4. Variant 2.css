@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+}
+
+html, body{
+    font-size: 18px;
+}
+
+img{
+    width: 256px;
+    height: 246px;
+    
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
+    margin: 30px auto;
+    background: #f1f1f1;
+    padding: 130px;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+button{
+    cursor: pointer;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 16px;
+    transition: 0.6s ease;
+    border-radius: 0.3px 3px 0;
+}
+
+button:hover{
+    background: rgb(175, 228, 32);
+}
+
+button:active{
+    background: rgb(219, 255, 57);
+    color: rgb(0, 0, 0);
+}
+
+.button{  
+    width: 210px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button{
+    border: 3px solid #00b18f;
+    border-radius: 24px;
+    margin: 8% 20% 0% 3%;
+}
+
+.slider{
+    width: 256px;
+    height: 246px;
+    border: 2px solid black;
+    margin: 30px auto;
+    overflow: hidden;
+}
+
+.slider-line{
+    height: 246px;
+    width: 1024px;
+    background: orangered;
+    display: flex;
+    position: relative;
+    left: 0;
+    transition: all ease 1s;
+}
