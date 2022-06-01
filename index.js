@@ -1,10 +1,12 @@
 function plus() {
     let number1, number2; 
-    number1 = document.getElementById('input_1').value = "";
+    number1 = document.getElementById('input_1').value;
     number1 = parseInt(number1);
     number2 = document.getElementById('input_2').value;
     number2 = parseInt(number2);
     alert(number1+number2);
+    number1 = document.getElementById('input_1').value = "";
+    number1 = document.getElementById('input_2').value = "";
 }
 
 function minus() {
@@ -14,6 +16,8 @@ function minus() {
     number2 = document.getElementById('input_2').value;
     number2 = parseInt(number2);
     alert(number1-number2);
+    number1 = document.getElementById('input_1').value = "";
+    number1 = document.getElementById('input_2').value = "";
 }
 
 function multiply() {
@@ -23,6 +27,8 @@ function multiply() {
     number2 = document.getElementById('input_2').value;
     number2 = parseInt(number2);
     alert(number1*number2);
+    number1 = document.getElementById('input_1').value = "";
+    number1 = document.getElementById('input_2').value = "";
 }
 
 function delit() {
@@ -32,4 +38,6 @@ function delit() {
     number2 = document.getElementById('input_2').value;
     number2 = parseInt(number2);
     alert(number1/number2);
+    number1 = document.getElementById('input_1').value = "";
+    number1 = document.getElementById('input_2').value = "";
 }
